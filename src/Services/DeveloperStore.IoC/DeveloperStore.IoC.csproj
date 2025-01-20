@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\DeveloperStore.Persistence\DeveloperStore.Persistence.csproj" />
+    <ProjectReference Include="..\DeveloperStore.Users.Application\DeveloperStore.Users.Application.csproj" />
+    <ProjectReference Include="..\DeveloperStore.Users.Domain\DeveloperStore.Users.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
